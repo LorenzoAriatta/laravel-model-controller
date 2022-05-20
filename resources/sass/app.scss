@@ -5,3 +5,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.poster {
+    margin: auto;
+    object-fit: contain;
+    max-height: 450px;
+}
