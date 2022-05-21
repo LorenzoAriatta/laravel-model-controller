@@ -6,8 +6,38 @@
     font-family: sans-serif;
 }
 
+body {
+    //background: linear-gradient(#9198e5, #e66465);
+    background-image: url('http://www.dreamtemplate.com/dreamcodes/bg_images/color/c9.jpg');
+    background-repeat: round;
+}
+
 .poster {
     margin: auto;
     object-fit: contain;
     max-height: 450px;
+
+    img {
+        border-radius: 15px;
+    }
+
+    img:hover {
+        max-width: fit-content;
+        transition: ease-in .4s;
+        filter: sepia(70%);
+    }
+}
+
+.movieCard {
+    padding: 5px;
+    color: whitesmoke;
+
+    span {
+        color: gold;
+        font-size: 20px;
+    }
+
+    svg {
+        width: 25px;
+    }
 }

@@ -5,10 +5,41 @@
   font-family: sans-serif;
 }
 
+body {
+  background-image: url("http://www.dreamtemplate.com/dreamcodes/bg_images/color/c9.jpg");
+  background-repeat: round;
+}
+
 .poster {
   margin: auto;
   -o-object-fit: contain;
      object-fit: contain;
   max-height: 450px;
+}
+
+.poster img {
+  border-radius: 15px;
+}
+
+.poster img:hover {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  transition: ease-in 0.4s;
+  filter: sepia(70%);
+}
+
+.movieCard {
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.movieCard span {
+  color: gold;
+  font-size: 20px;
+}
+
+.movieCard svg {
+  width: 25px;
 }
 
